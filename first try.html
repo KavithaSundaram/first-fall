@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Fall</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body style="background-color: #ccc;">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+        <div class="container-fluid head" id="home">
+            <a class="navbar-brand" href="#"><i class="icon fa-solid fa-utensils text-warning p-2 mt-1"></i>Red Restoran</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#logo">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="logo" >
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#special">View</a>
+                    </li>  
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#demo" role="button" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Menu list</a></li>
+                            <li><a class="dropdown-item" href="#team">Our Teams</a></li>
+                            <li><a class="dropdown-item" href="#">Our Special</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#company">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+    <!---Carousel-->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="http://source.unsplash.com/300x300/?food?11" alt="Food" class="d-block" style="width:100%" height="660">
+                    <div class="carousel-caption" id="caption">
+                        <h3>Our Special</h3>
+                        <p>Home made tradinal tasty food!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="http://source.unsplash.com/300x300/?food?12" alt="food" class="d-block" style="width:100%" height="660">
+                    <div class="carousel-caption" id="caption">
+                        <h3>Menu List</h3>
+                        <p>Customer requested food available here!</p>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <img src="http://source.unsplash.com/300x300/?food?13" alt="food" class="d-block" style="width:100%" height="660">
+                    <div class="carousel-caption" id="caption">
+                        <h3>Variety Food</h3>
+                        <p>Veg, Non-veg and Fast Food Available here!</p>
+                    </div>  
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+<!--About Us-->
+    <div class="container-fluid">
+        <div class="row w-auto">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <img class="img-fluid" src="http://source.unsplash.com/300x300/?non-veg food?21" alt="New York" width="300" height="450">
+                <img class="img-fluid" src="http://source.unsplash.com/300x300/?veg food?2" alt="New York" width="330" height="400"> 
+                <img class="img-fluid" src="http://source.unsplash.com/300x300/?non-veg food?3" alt="New York" width="330" height="450"> 
+                <img class="img-fluid" src="http://source.unsplash.com/300x300/?veg food?4" alt="New York" width="300" height="400">            
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12" id="about">
+                <h2 class="mt-2 text-warning">About Us</h2>
+                <h2>Welcome to<i class="icon fa-solid fa-utensils text-warning p-2 mt-3 "></i>Restoran</h2>
+                <p>"Looking for some yummy home-cooked meals in Tirupur? We take orders 1 day in advance and cook fresh and hygienic meals for you at home. Once you order we will share the pickup location from where you can pick your yummy hot meal."</p>
+                <p>Open-air lounge & hangout on a rooftop, offering city views & multicuisine dishes.</p>
+                <p>A place famous for its North Eastern thalis, you can indulge in authentic thalis from – Nepal, Tibet, Thakali Thali or Bhutan here!......</p>
+                <p>Whether you're craving for some flavorsome Mutton Roghan Josh or the classic Chicken Curry with rice, the thali here has got 'em all!</p>
+                <h3><span class="text-warning">15+</span> year Experiences</h3>
+                <h3><span class="text-warning">50</span> Master chef's<h3>
+                <div class="d-flex ml-auto">
+                    <button type="button" class="btn btn-warning text-white p-2" id="R-btn" name="btn">Read More</button>
+                    <button type="button" class="A-btn btn btn-warning text-dark p-2 fixed-left" id="btn" name="btn"><a class="text-white" href="#demo"><i class="fa-solid fa-arrow-up"></i></a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Review Page-->
+    <div class="container-fluid text-ridght mt-3">
+        <div class="row m-3" id="special">
+            <div class="card m-3 pb-5" style="width:290px; height: auto;background-color:#ffff;">
+                <h1><i class="card-img-top fa-solid fa-user-tie text-warning p-5 pb-1 w-100% h-50%"></i></h1>
+                <div class="card-body">
+                    <h4 class="card-title text-warning">Master chef's</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem officia nisi non cumque eos!</p>   
+                </div>
+            </div>
+            <div class="card m-3" style="width:290px; height: auto;">
+                <h1><i class="card-img-top fa-solid fa-utensils text-warning p-5 pb-1 w-100% h-50%"></i></h1>
+                <div class="card-body">
+                    <h4 class="card-title text-warning">Quality Food</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem officia nisi non cumque eos!</p>   
+                </div>
+            </div>
+            <div class="card m-3" style="width:290px; height: auto;">
+                <h1><i class="card-img-top fa-solid fa-cart-shopping text-warning p-5 pb-1 w-100% h-50%"></i></h1>
+                <div class="card-body">
+                    <h4 class="card-title text-warning">Online Order</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem officia nisi non cumque eos!</p>   
+                </div>
+            </div>
+            <div class="card m-3" style="width:290px; height: auto;">
+                <h1><i class="card-img-top fa-solid fa-headphones-simple text-warning p-5 pb-1 w-100% h-50%"></i></h1>
+                <div class="card-body">
+                    <h4 class="card-title text-warning">24/7 Service</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem officia nisi non cumque eos!</p>   
+                </div>
+            </div>
+            <div class="d-flex ml-auto">
+                <button type="button" class="A-btn btn btn-warning text-dark p-2" id="btn" name="btn"><a class="text-white" href="#demo"><i class="fa-solid fa-arrow-up"></i></a></button>
+            </div>
+        </div>
+    </div>
+<!--Our Team-->
+    <div class="container-fluid text-ridght mt-3">
+        <h2 class="text-warning text-center">--Our Teams--</h2>
+        <h2 class="text-warning text-center">Our Master Chef's</h2>
+        <div class="row m-3" id="team">
+            <div class="card m-3 pb-5" style="width:290px; height: auto;
+            background-color:#ffff;">
+                <img class="card-img-top rounded-circle align-center mt-2" src="http://source.unsplash.com/300x300/?chef?1" alt="Card image" >
+                <div class="card-body">
+                    <h4 class="card-title text-warning">chef.John Tie</h4>
+                    <p class="card-text">The best ever Non-veg specialist</p>
+                    <button type="button" class="btn btn-info" name="btn" id="prof">
+                        <a class="text-white" href="#">See Profile</a>
+                    </button>   
+                </div>
+            </div>
+            <div class="card m-3 pb-5" style="width:290px; height: auto;
+            background-color:#ffff;">
+                <img class="card-img-top rounded-circle align-center mt-2" src="http://source.unsplash.com/300x300/?chef?2" alt="Card image" >
+                <div class="card-body">
+                    <h4 class="card-title text-warning">chef.Sung Woong</h4>
+                    <p class="card-text">The best ever Japanish Food specialist</p>   
+                    <button type="button" class="btn btn-info" name="btn" id="prof">
+                        <a class="text-white" href="#">See Profile</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card m-3 pb-5" style="width:290px; height: auto;
+            background-color:#ffff;">
+                <img class="card-img-top rounded-circle align-center mt-2" src="http://source.unsplash.com/300x300/?chef?3" alt="Card image" >
+                <div class="card-body">
+                    <h4 class="card-title text-warning">chef.Tian Mark</h4>
+                    <p class="card-text">The best ever Thai specialist</p>
+                    <button type="button" class="btn btn-info" name="btn" id="prof">
+                        <a class="text-white" href="#">See Profile</a>
+                    </button>  
+                </div>
+            </div>
+            <div class="card m-3 pb-5" style="width:290px; height: auto;
+            background-color:#ffff;">
+                <img class="card-img-top rounded-circle align-center mt-2" src="http://source.unsplash.com/300x300/?chef?4" alt="Card image" >
+                <div class="card-body">
+                    <h4 class="card-title text-warning">chef.Sand Ray</h4>
+                    <p class="card-text">The best ever veg specialist</p>
+                    <button type="button" class="btn btn-info" name="btn" id="prof">
+                        <a class="text-white" href="#">See Profile</a>
+                    </button> 
+                </div>
+            </div>
+            <div class="d-flex ml-auto">
+                <button type="button" class="A-btn btn btn-warning text-dark p-2" id="btn" name="btn"><a class="text-white" href="#demo"><i class="fa-solid fa-arrow-up">
+                </i></a></button>
+            </div>
+        </div>
+    </div>
+<!---Contact-->
+<div class="container-fluid foot d-flex bg-dark mb-2 mt-2 pb-4 p-2 pt-4 text-white" id="foot" >
+    <div class="row"  style="width: 100%;"> 
+        <div class="col-md-3" id="company">
+            <h2 class="text-warning">Company</h2>
+            <ul>
+                <li><a class="text-white" href="#"><i class="fa-solid fa-greater-than p-2"></i>HOME</a></li>
+                <li><a class="text-white" href="#"><i class="fa-solid fa-greater-than p-2"></i>ABOUT</a></li>
+                <li><a class="text-white" href="#"><i class="fa-solid fa-greater-than p-2"></i>CONTACT</a></li>
+                <li><a class="text-white" href="#"><i class="fa-solid fa-greater-than p-2"></i>REVIEW</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h2 class="text-warning">Contact</h2>
+            <p><i class="fa-solid fa-location-dot p-2 text-warning"></i>534,Bence Street,New York,USA</p>
+            <p><i class="fa-solid fa-phone p-2 text-warning"></i>+01 863 7347 439</p>
+            <p><i class="fa-solid fa-envelope p-2 text-warning"></i>Sample@gmail.com</p>
+        </div>
+        <div class="col-md-3">
+            <h2 class="text-warning">Opening</h2>
+            <p>Monday-Saturday</p>
+            <P>9Am-10PM</P>
+            <p>Sunday</p>
+            <P>10AM-8PM</P>
+        </div>
+        <div class="col-md-3">
+            <h2 class="text-warning">Newsletter</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, magni!</p>
+            <input type="email" name="email" id="email" placeholder="Your mail">
+            <button type="button" class="btn btn-warning mt-2 text-white" name="btn" id="btn2" >Sign Up</button>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

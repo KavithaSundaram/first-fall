@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Nunito&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;1,6..12,300&family=Playfair+Display&family=Poppins:ital,wght@1,300&family=Sometype+Mono:wght@500&display=swap');
+*{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+.head a{
+     font-size: 22px;
+}
+#caption{
+    margin-bottom: 200px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-nav{
+    margin-left: auto;
+    color: white;
+}
+.navbar-nav li a{
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: black;
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;    
+}
+.navbar-nav li ul li a:hover{
+    background-color: gray;
+    border-radius: 0;
+    color: white;
+    padding: 5px;
+}
+#R-btn{
+    font-size: 20px;
+}
+#R-btn:hover{
+    background-color: rgb(242, 225, 33);
+}
+.A-btn{
+    margin-left: auto;
+}
+#about p{
+    font-size: 18px;
+}
+.card .card-body{
+    font-size: 20px;
+}
+.card:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
+#prof a{
+    text-decoration: none;
+}
+#prof:hover{
+    background-color: rgb(25, 233, 248);
+}
+#company ul li{
+    list-style: none;
+}
+#company ul li a{
+    font-size: 22px;
+    text-decoration: none;
+}
+#company ul li a:hover{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.foot{
+    font-size: 22px;
+}
+#foot p:hover{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
